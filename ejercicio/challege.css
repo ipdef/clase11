@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.caja{
+    background-color:aqua ;
+    width: 20vw;
+    height: 100px;
+    align-self: flex-start;
+}
+.caja:nth-of-type(2){
+    align-self: flex-end;
+    background-color: blue;
+}
